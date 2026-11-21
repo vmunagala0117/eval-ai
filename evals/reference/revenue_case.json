@@ -1,0 +1,17 @@
+{
+  "case_id": "revenue_001",
+  "version": "1",
+  "fixed_today": "2026-11-18",
+  "review_status": "demo_authored",
+  "reference": {
+    "scope": "Marketplace",
+    "metric": "net_revenue",
+    "prior_period": "2026-09",
+    "current_period": "2026-10",
+    "prior_cents": 1000000000,
+    "current_cents": 900000000,
+    "change_cents": -100000000,
+    "change_pct": "-10.00"
+  },
+  "evidence_limit": "Monthly totals establish the change, but do not establish its business cause."
+}
