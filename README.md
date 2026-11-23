@@ -4,7 +4,9 @@ Executable lessons for evaluating a fictional enterprise finance assistant. All 
 
 ## Start here
 
-Follow [VS Code setup for Ubuntu WSL or Windows PowerShell](docs/setup.md), then open [Notebook 00](notebooks/00_success_contract.ipynb).
+Follow [VS Code setup for Ubuntu WSL or Windows PowerShell](docs/setup.md), then read the [Lesson 00 companion guide](docs/lessons/00_success_contract.md) and open [Notebook 00](notebooks/00_success_contract.ipynb).
+
+Use the [lesson index](docs/lessons/README.md) to track each lesson's goal, output, and implementation status.
 
 Lesson 00 demonstrates that a numerically correct answer can fail when its explanation is unsupported. It checks scope, periods, amounts, and a supplied narrative-review verdict. Reviews are explicitly demo-authored; this is not an automated semantic judge or a live agent benchmark.
 
