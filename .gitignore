@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Evaluation outputs and local learning notes
+reports/executed/
+.env.*
+!.env.example
+learning_private/
+

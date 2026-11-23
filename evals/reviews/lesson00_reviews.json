@@ -1,0 +1,26 @@
+[
+  {
+    "answer_id": "limited_evidence",
+    "narrative": "Marketplace net revenue declined from $10 million in September to $9 million in October, a decrease of $1 million (10%). The available monthly totals do not establish the cause.",
+    "verdict": "pass",
+    "reason": "The narrative describes the supplied totals and discloses the evidence limit.",
+    "reviewer": "demo_author",
+    "review_status": "demo_authored"
+  },
+  {
+    "answer_id": "unsupported_churn",
+    "narrative": "Marketplace net revenue declined from $10 million in September to $9 million in October, a decrease of $1 million (10%), caused by customer churn.",
+    "verdict": "fail",
+    "reason": "Monthly totals do not establish churn as the cause.",
+    "reviewer": "demo_author",
+    "review_status": "demo_authored"
+  },
+  {
+    "answer_id": "wrong_period",
+    "narrative": "Marketplace net revenue declined from $10 million in September to $9 million in October, a decrease of $1 million (10%). The available monthly totals do not establish the cause.",
+    "verdict": "pass",
+    "reason": "The narrative describes the supplied totals and discloses the evidence limit.",
+    "reviewer": "demo_author",
+    "review_status": "demo_authored"
+  }
+]

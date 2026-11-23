@@ -1,0 +1,38 @@
+[
+  {
+    "id": "limited_evidence",
+    "narrative": "Marketplace net revenue declined from $10 million in September to $9 million in October, a decrease of $1 million (10%). The available monthly totals do not establish the cause.",
+    "scope": "Marketplace",
+    "metric": "net_revenue",
+    "prior_period": "2026-09",
+    "current_period": "2026-10",
+    "prior_cents": 1000000000,
+    "current_cents": 900000000,
+    "change_cents": -100000000,
+    "change_pct": "-10.00"
+  },
+  {
+    "id": "unsupported_churn",
+    "narrative": "Marketplace net revenue declined from $10 million in September to $9 million in October, a decrease of $1 million (10%), caused by customer churn.",
+    "scope": "Marketplace",
+    "metric": "net_revenue",
+    "prior_period": "2026-09",
+    "current_period": "2026-10",
+    "prior_cents": 1000000000,
+    "current_cents": 900000000,
+    "change_cents": -100000000,
+    "change_pct": "-10.00"
+  },
+  {
+    "id": "wrong_period",
+    "narrative": "Marketplace net revenue declined from $10 million in September to $9 million in October, a decrease of $1 million (10%). The available monthly totals do not establish the cause.",
+    "scope": "Marketplace",
+    "metric": "net_revenue",
+    "prior_period": "2026-09",
+    "current_period": "2026-08",
+    "prior_cents": 1000000000,
+    "current_cents": 900000000,
+    "change_cents": -100000000,
+    "change_pct": "-10.00"
+  }
+]
