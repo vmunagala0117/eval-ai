@@ -7,7 +7,7 @@ Read each companion guide, predict the result, execute its notebook, and inspect
 | Lesson | Goal | Expected output | Next question it enables | Status |
 |---|---|---|---|---|
 | [00 — Success contract](00_success_contract.md) | Separate candidate answers, reference facts, and narrative reviews | Per-check and overall verdicts on authored examples | How are reference facts established? | Implemented offline |
-| 01 — Data and goldens | Create source records and independent references | Versioned fixtures, reference queries, review records | Can the agent answer against this data? | Planned |
+| [01 — Data and goldens](../plans/01_reference_data.md) | Create source records and independent references | Versioned fixtures, reference queries, review records | Can the agent answer against this data? | Draft plan |
 | 02 — Agent and trace | Run an Azure OpenAI finance agent with observable execution | Answer, tool results, trace, run manifest | Which facts and steps are correct? | Planned |
 | 03 — Deterministic graders | Check numerical and business requirements | Evidence-linked check verdicts | Did the agent follow a permitted path? | Planned |
 | 04 — Trajectory and MCP | Implement real MCP integration and path checks | Required/forbidden action results | Does the conversation handle missing information? | Planned |
@@ -43,4 +43,4 @@ Only Lesson 00 currently has an executable notebook and companion guide. Do not 
 - Keep private Codex coaching and personal learning notes outside public lesson guides.
 - Use the repository README as the entry point and this page as the lesson index.
 
-[Project README](../../README.md) · [Environment setup](../setup.md)
+[Project README](../../README.md) · [Environment setup](../setup.md) · [Lesson-building workflow](../workflows/build_a_lesson.md)
