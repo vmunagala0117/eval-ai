@@ -7,7 +7,7 @@ Read each companion guide, predict the result, execute its notebook, and inspect
 | Lesson | Goal | Expected output | Next question it enables | Status |
 |---|---|---|---|---|
 | [00 — Success contract](00_success_contract.md) | Separate candidate answers, reference facts, and narrative reviews | Per-check and overall verdicts on authored examples | How are reference facts established? | Implemented offline |
-| [01 — Data and goldens](../plans/01_reference_data.md) | Create source records and independent references | Versioned fixtures, reference queries, review records | Can the agent answer against this data? | Draft plan |
+| [01 — Trustworthy reference data](01_reference_data.md) | Derive expected facts from source records | Reconciled totals and a versioned reference with evidence IDs | Can the agent answer against this data? | Implemented offline |
 | 02 — Agent and trace | Run an Azure OpenAI finance agent with observable execution | Answer, tool results, trace, run manifest | Which facts and steps are correct? | Planned |
 | 03 — Deterministic graders | Check numerical and business requirements | Evidence-linked check verdicts | Did the agent follow a permitted path? | Planned |
 | 04 — Trajectory and MCP | Implement real MCP integration and path checks | Required/forbidden action results | Does the conversation handle missing information? | Planned |
@@ -19,7 +19,7 @@ Read each companion guide, predict the result, execute its notebook, and inspect
 | 10 — Release pipeline | Apply full evaluation release rules | Evidence-linked pass/fail/blocked decisions | How does the suite stay relevant? | Planned; starter CI exists |
 | 11 — Feedback and drift | Turn reviewed feedback into new cases | Case lineage and drift decisions | Ongoing evaluation maintenance | Planned |
 
-Only Lesson 00 currently has an executable notebook and companion guide. Do not interpret a planned row as implemented functionality. Add each guide when the corresponding lesson is built.
+Lessons 00 and 01 each have an executable notebook and companion guide. Add each remaining guide when its lesson is built.
 
 ## Standard companion-guide structure
 

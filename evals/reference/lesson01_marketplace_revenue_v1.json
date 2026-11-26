@@ -1,0 +1,30 @@
+{
+  "case_id": "lesson01_marketplace_revenue",
+  "version": "1",
+  "dataset_version": "1",
+  "source_fixture": "evals/source/revenue_transactions_v1.json",
+  "business_rule_version": "1",
+  "fixed_today": "2026-11-18",
+  "review_status": "demo_authored",
+  "reference": {
+    "scope": "Marketplace",
+    "metric": "net_revenue",
+    "prior_period": "2026-09",
+    "current_period": "2026-10",
+    "prior_cents": 1000000000,
+    "current_cents": 900000000,
+    "change_cents": -100000000,
+    "change_pct": "-10.00"
+  },
+  "source_record_ids": {
+    "2026-09": [
+      "TX-001",
+      "TX-002"
+    ],
+    "2026-10": [
+      "TX-003",
+      "TX-004"
+    ]
+  },
+  "evidence_limit": "Posting records establish the amount of the decline. They do not establish its business cause."
+}

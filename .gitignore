@@ -228,3 +228,6 @@ reports/executed/
 !.env.example
 learning_private/
 
+# Generated Lesson 01 databases
+*.sqlite3
+*.sqlite3-*
